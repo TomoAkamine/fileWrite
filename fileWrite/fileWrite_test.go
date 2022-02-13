@@ -2,7 +2,7 @@ package fileWrite
 
 import "testing"
 
-func TestFileWrite(t testing.T) {
+func TestFileWrite(t *testing.T) {
 	result := Hello("TomoAkamine")
 	want := "Hi, TomoAkamine. Welcome!"
 	if result != want {
